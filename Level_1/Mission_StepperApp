@@ -1,0 +1,11 @@
+Schreibe eine Stepper App.
+
+Bilde folgendes mit einem Grid-Layout:
+1 Button mit einem "-" als Text auf der linken Seite.
+1 Button mit einem "+" als Text auf der rechten Seite.
+1 Label zwischen den beiden Buttons.
+
+
+Das Label soll einen Counter anzeigen.
+Der Minus-Button soll den Counter verringern und das Label aktualisieren
+Der Plus-Button soll den Counter erhöhen und das Label aktualisieren

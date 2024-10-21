@@ -1,0 +1,22 @@
+Schreibe eine TodoApp.
+
+Dafür brauchst du mindestens ein Parent-Widget und das Task-Widget.
+
+
+Schritt 1:
+Schreibe das Parent-Widget, den Taskträger wenn man so will.
+Es soll ein Entry haben und einen Add-Button.
+Wenn man den Add-Button drückt soll dem Parent-Widget ein neues Task-Widget hinzugefügt werden.
+Das Task-Widget soll vorerst nur den Text des Entrys zeigen.
+
+Zusatz Schritt 1:
+1. Stelle sicher das kein Task-Widget entsteht wenn das Entry leer ist.
+2. Setze den Text des Entrys zurück sobald der Button gedrückt wurde
+
+
+Schritt 2:
+Erweitere das Task-Widget um eine Checkbox und einen Delete-Button. Der Delete-Button soll das Widget entfernen.
+
+Schritt 3:
+Erweitere das Parent-Widget um ein Label "offene Todos {n}". Es soll die anzahl nicht abgehakter Task-Widgets zeigen
+und natürlich jedes mal aktualisiert werden wenn man die Checkbox oder den Button des Task-Widgets drückt.
