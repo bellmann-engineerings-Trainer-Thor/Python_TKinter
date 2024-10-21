@@ -1,9 +1,9 @@
 import tkinter as tk
-from meine_erste_komponente import MeineErsteKomponente
+from meinEigenerFrame import MeinEigenderFrame
 
-class MainWindow(tk.Tk):
-    def __init__(self):
-        super().__init__()
+class MeinEigensTk(tk.Tk):
+    def __init__(self, screenName=None, baseName=None, className='Tk', useTk=True, sync=False, use=None):
+        super().__init__(screenName=None, baseName=None, className='Tk', useTk=True, sync=False, use=None)
         self.title("Komponenten")
 
         # Zähler für die Anzahl der hinzugefügten Komponenten
@@ -22,10 +22,10 @@ class MainWindow(tk.Tk):
         self.component_count += 1
 
         # Erzeuge eine Instanz von MyCustomFrame und füge sie zum Container-Frame hinzu
-        custom_frame = MeineErsteKomponente(self.child_space, text=f"Komponente {self.component_count}")
+        custom_frame = MeinEigenderFrame(self.child_space, text=f"Komponente {self.component_count}")
         custom_frame.pack(fill="x", pady=5)
 
 
 if __name__ == "__main__":
-    app = MainWindow()
+    app = MeinEigensTk()
     app.mainloop()

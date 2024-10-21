@@ -1,9 +1,9 @@
 import tkinter as tk
 
 
-class MeineErsteKomponente(tk.Frame):
+class MeinEigenderFrame(tk.Frame):
     def __init__(self, master=None, text="", **kwargs):
-        super().__init__(master, **kwargs)
+        super().__init__(master=None, cnf={})
 
         # Label
         self.label = tk.Label(self, text=text)

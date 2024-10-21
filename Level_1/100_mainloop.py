@@ -6,7 +6,7 @@ root = tk.Tk()
 # Setze den Titel des Fensters
 root.title("Tkinter Fenster")
 
-# Setze die Größe und Position des Fensters
+# Setze die Größe des Fensters
 root.geometry("800x600")
 
 # Setze die Mindest- und Maximalgröße

@@ -1,0 +1,11 @@
+Schreibe eine App bestehend aus 4 Dateien.
+
+eine Datei soll das Tk sein/erben
+eine Datei soll ein Button sein/erben
+eine Datei soll ein Label sein/erben
+eine Datei soll ausführbar sein
+
+
+Die App hat ein Label und einen Button.
+Wenn ich auf den Button drücke wird eine Randomzahl
+generiert und auf dem Label angezeigt.
