@@ -26,4 +26,16 @@ class Child(tk.Frame):
         self.label.config(text=f"{self.text} {new_text}")
 
 if __name__ == "__main__":
-    pass
+    root = tk.Tk()
+    root.title("Child-Test-Applikation")
+
+
+    def receive_message_from_child(message):
+        print(f"Nachricht vom Kind: {message}")
+
+
+    # Erzeugung eines Child-Widgets
+    child = Child(root, text="Child", parent_callback=receive_message_from_child)
+    child.pack(pady=20)
+
+    root.mainloop()
